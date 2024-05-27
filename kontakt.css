@@ -1,0 +1,66 @@
+body {
+  background-image: url(frankskro_billeder/IMG_5705.JPG);
+  backdrop-filter: blur(8px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+p {
+  margin-inline: 1.5rem;
+}
+h1 {
+  margin-inline: 1.5rem;
+}
+h2 {
+  margin-inline: 1.5rem;
+}
+h3 {
+  margin-inline: 1.5rem;
+}
+ul {
+  margin-inline: 1.5rem;
+}
+
+.grid_2-1 {
+  background-color: var(--sort);
+  margin-bottom: 5rem;
+}
+.grid_2-5 {
+  background-color: var(--sort);
+  margin-bottom: 5rem;
+}
+
+iframe {
+  width: 80%;
+  height: 400px;
+}
+.maps {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  filter: grayscale(100%) brightness(75%) contrast(120%);
+}
+
+/*** Decktop ***/
+@media (max-width: 750px) {
+  .fjern {
+    display: none;
+  }
+}
+
+/*** Decktop ***/
+@media (min-width: 750px) {
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .grid_2-5 {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    background-color: var(--sort);
+  }
+}

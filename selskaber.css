@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+.baggrund {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 200vh;
+  background-image: url(frankskro_billeder/IMG_5712.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(5px);
+}
+
+.content {
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+
+.content h1 {
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 20px;
+  filter: none;
+}
+.img_deg {
+  float: right;
+  width: 30%;
+  color: beige;
+}
+.grid_1-1 {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  top: 15%;
+  background-color: #262626;
+  padding: 30px;
+  color: beige;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+.grid_1-2 {
+  width: 65ch;
+  line-height: 1.5;
+}
+
+.grid_2-1 {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  top: 55%;
+  background-color: #262626;
+  padding: 30px;
+  color: beige;
+  font-size: 0.8rem;
+}
+.grid_2-2 {
+  width: 65ch;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.grid_3-1 {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  top: 140%;
+  background-color: transparent;
+  padding: 30px;
+  color: beige;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.grid_3-2 {
+}
+
+.button {
+  background-color: #262626;
+  border: 1px solid beige;
+  color: beige;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transition for baggrundsfarve */
+}
+
+.button:hover {
+  background-color: beige;
+  color: black;
+}

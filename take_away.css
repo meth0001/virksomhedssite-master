@@ -1,0 +1,155 @@
+/***GENEREL***/
+
+body {
+  background-image: url(frankskro_billeder/IMG_5711.JPG);
+  backdrop-filter: blur(8px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.takeaway_intro {
+  background-color: var(--sort);
+}
+
+.menu_grid {
+  background-color: var(--sort);
+}
+
+.bestil_grid {
+  background-color: var(--sort);
+}
+
+.frank_grid {
+  background-color: var(--sort);
+}
+
+.servering_grid {
+  background-color: var(--sort);
+}
+
+/****MOBIL VERSION****/
+
+@media (max-width: 750px) {
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  dl,
+  dd,
+  dt {
+    text-align: center;
+  }
+
+  .takeaway_intro {
+    margin-bottom: 7rem;
+    padding-bottom: 2rem;
+  }
+  .menu_grid {
+    margin-bottom: 7rem;
+    padding-bottom: 2rem;
+  }
+
+  .bestil_grid {
+    padding-bottom: 4rem;
+  }
+
+  .frank_grid {
+    padding-bottom: 4rem;
+  }
+
+  .servering_grid {
+    padding-bottom: 4rem;
+  }
+}
+
+/****WEB VERSION****/
+
+@media screen and (min-width: 750px) {
+  p {
+    font-size: 1.3rem;
+    padding-block: 1.2rem;
+    padding-inline: 1.5rem;
+  }
+
+  h1 {
+    padding-inline: 1rem;
+  }
+
+  .h2_indhold {
+    padding-inline: 1rem;
+  }
+
+  h3 {
+    padding-inline: 1rem;
+  }
+
+  h4 {
+    padding-inline: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  dl {
+    padding-inline: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.3rem;
+  }
+
+  dd {
+    text-align: right;
+  }
+
+  .takeaway_grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .takeaway_intro {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .menu_grid {
+    padding: 1px;
+    margin-left: 3rem;
+    margin-right: 10rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .bestil_grid {
+    padding: 10px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .frank_grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    text-align: right;
+  }
+
+  .servering_grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  .order {
+    order: 1;
+  }
+}
